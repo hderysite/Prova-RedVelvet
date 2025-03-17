@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Box Sizing</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .box {
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid black;
+            background-color: lightblue;
+        }
+
+        .content-box {
+            box-sizing: content-box;
+        }
+
+        .border-box {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Comparação entre <code>content-box</code> e <code>border-box</code></h2>
+
+    <div class="container">
+        <div class="box content-box">
+            <strong>content-box</strong>
+            <p>A largura total será maior que 200px.</p>
+        </div>
+
+        <div class="box border-box">
+            <strong>border-box</strong>
+            <p>A largura total será exatamente 200px.</p>
+        </div>
+    </div>
+
+</body>
+</html>
