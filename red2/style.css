@@ -3,7 +3,7 @@
 /* fonte para o título */
 @font-face {
     font-family: 'Velvet';
-    src: url(Bubblegum.ttf) format('opentype');
+    src: url(../red/Bubblegum.ttf) format('opentype');
     font-weight: normal;
 }
 
