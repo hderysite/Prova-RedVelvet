@@ -7,6 +7,12 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Text';
+    src: url(../extras/Hind-Guntur-Bold.ttf.eot) format('opentype');
+    font-weight: normal;
+}
+
 /* melhor guia */
 :root {
     --fonte-velvet: 'Velvet', cursive;
@@ -14,6 +20,7 @@
     --cor2: #cc7178; /* opcional */
     --cor3: #fc001f; /* vermelho intenso */
     --cor4: #fe6e61; /* vermelho coral */
+    --fonte-text: 'Text', cursive;
 }
 
 /* seletor universal - configuração página */
@@ -32,6 +39,10 @@ body {
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 1.5;
+}
+
+main {
+    font-family: var(--fonte-text);
 }
 
 /* configuração da imagem */
