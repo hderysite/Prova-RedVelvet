@@ -268,12 +268,13 @@ a:hover {
     inset: 0% 0% auto;
 }
 
+/* - não utilizado
 .overlay-fade-bottom {
     background-image: linear-gradient(to top #0a0a0a, #0a0a0a00);
     width: 88%;
     position: absolute;
     inset: 0% 0% auto;
-}
+} */
 
 /* da linha do tempo para os botões */
 .fundo1 {
