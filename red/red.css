@@ -82,7 +82,7 @@ h4 {
     display: inline-block;
 } 
 
-/* sem este elemento a págica não "funcionaria" */
+/* sem este elemento a página não "funcionaria" */
 .page-wrapper {
     z-index: 0;
     position: relative;
